@@ -1,0 +1,242 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Saira Stencil One;
+	background-color: black;
+	background: url(18.png);
+	background-size: cover;
+	top: 70px; 
+
+	
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav {
+	background: black;
+	width: 100%;
+	height: 63px;
+	line-height: 60px;
+	border-bottom: 5px solid #DDA0DD;
+		
+}
+
+#nav h1 {
+	float: left;
+}
+
+#nav h1 a {
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	font-family: 'Teko', sans-serif;
+	
+}
+
+#nav ul {
+	float: right;
+}
+#nav ul li {
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	color: #DDA0DD;
+	padding: 25px;
+	font-family: 'Merriweather Sans', sans-serif;
+	
+
+}
+#nav ul li :hover {
+	background: grey	;
+	transition: all ease-in-out 0.40s;
+}
+
+#hello{
+	background: grey;
+}
+
+#hello1{
+	background-color: grey;
+	height: 5px;
+}
+.images {
+	background-size: cover;
+	height: 60%;
+	width: 60%;
+}
+.animated-infinite-wobble {
+    text-align:center;
+    margin-top:10px;
+}
+.font {
+	margin-left: -40px;
+}
+
+.foto {
+	width: 50px;
+	height: 50px;
+
+}
+.home {
+	min-height: 1000px;
+
+}
+.content {
+	margin-top: 40px;
+
+}
+
+.one {
+	width: 300px;
+	height: 200px;
+	margin-left: 170px;
+	transition: 0.2s;
+	border: 2px solid black;
+	
+	opacity: 70px;
+}
+.one:hover{
+	width: 310px;
+	height: 210px;
+	background: rgba(0, 0, 0, 0.8);
+	transition: 0.2s;
+}
+.two {
+	width: 300px;
+	height: 200px;
+	margin-left: 60px;
+	transition: 0.2s;
+	border: 2px solid black;
+	
+}
+.two:hover{
+	width: 310px;
+	height: 210px;
+	background: rgba(0, 0, 0, 0.8);
+	transition: 0.2s;
+}
+.tree {
+	width: 300px;
+	height: 200px;
+	margin-left: 60px;
+	transition: 0.2s;
+	border: 2px solid black;
+	
+}
+.tree:hover{
+	width: 310px;
+	height: 210px;
+	color: rgba(0, 0, 0, 0.8);
+	transition: 0.2s;
+}
+.four {
+	width: 300px;
+	height: 200px;
+	margin-left: 170px;
+	margin-top: 70px;
+	transition: 0.2s;
+	border: 2px solid black;
+	
+}
+.four:hover{
+	width: 310px;
+	height: 210px;
+	color: rgba(0, 0, 0, 0.8);
+	transition: 0.2s;
+}
+
+.five {
+	width: 300px;
+	height: 200px;
+	margin-left: 60px;
+	margin-top: 70px;
+	transition: 0.2s;
+	border: 2px solid black;
+	
+}
+.five:hover{
+	width: 310px;
+	height: 210px;
+	color: rgba(0, 0, 0, 0.8);
+	transition: 0.2s;
+}
+
+.six {
+	width: 300px;
+	height: 200px;
+	margin-left: 60px;
+	margin-top: 70px;
+	transition: 0.2s;
+	border: 2px solid black;
+	
+}
+.six:hover{
+	width: 310px;
+	height: 210px;
+	color: rgba(0, 0, 0, 0.8);
+	transition: 0.2s;
+}
+
+.content-q {
+	color: white;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.hiji {
+	margin-left: 240px;
+	color: white;
+}
+.dua {
+	margin-left: 600px;
+	margin-top: -40px;
+	color: white;
+}
+.tilu {
+	margin-left: 960px;
+	margin-top: -38px;
+	color: white;
+}
+.hiji:hover{
+	color: grey;
+	transition: 0.2s;
+}
+.dua:hover{
+	color: grey;
+	transition: 0.2s;
+}
+.tilu:hover{
+	color: grey;
+	transition: 0.2s;
+}
+
+#scroll{
+ width: 200px;
+ height: 100px;
+ overflow: scroll;
+ padding: 10px;
+ background: #ccc;
+}
+
+#bar-satu {
+	background: black;
+	width: 100%;
+	height: 63px;
+	line-height: 60px;
+	border-bottom: 5px solid #DDA0DD;
+	font-family: 'Teko', sans-serif;
+	color: white;
+	margin-top: 70px;
+}
+
+.bar-huruf {
+	margin-left: 70px;
+}
+.home {
+	backface-visibility: 12px;
+}

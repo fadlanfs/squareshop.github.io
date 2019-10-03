@@ -1,0 +1,121 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(01.jpg) no-repeat;
+	font-family: sans-serif;
+	background-size: cover;
+	
+}
+.login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background:rgba(0, 0, 0, 0,5);
+	padding: 20px;
+	width: 270px;
+	box-shadow: 0 0 10px 5px black;
+}
+.avatar {
+	font-size: 50px;
+	background: #bdc3c7;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	position: fixed;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, -50%);
+	border-radius: 50%; 
+	color: black;
+	transition: 0.5s;
+
+}
+.login h2 {
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	letter-spacing: 5px;
+	
+}
+.for-login {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	border-bottom: 2px solid white;
+	padding: 8px 0;
+	transition: 1s;
+}
+.for-login i {
+	font-size: 20px;
+	color: white;
+}
+
+.for-login input {
+	width: 100%;
+	padding: 0 10px;
+	background: none;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 18px;
+}
+.for-login input::placeholder {
+	color: white;
+}
+
+.btn-login {
+	width: 100%;
+	background: none;
+	padding: 15px;
+	border: 1px solid white;
+	border-radius: 12px;
+	font-size: 18px;
+	letter-spacing: 5px;
+	color: white;
+	cursor: pointer;
+}
+.btn-login:hover{
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.bottom {
+	display: flex;
+	justify-content: space-between;
+}
+.bottom a{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;	
+}
+.bottom a:hover {
+	text-decoration: underline;
+
+}
+.wak:before {
+	content: '';
+	color: #fff;	
+	opacity: 0;
+	animation: animate 2s linear infinite;
+}
+@keyframes animate {
+	0%{
+		content: '!!!WEBSITE INI HANYA UNTUK DESKTOP/PC TIDAK DI REKOMENDASIKAN UNTUK HANDPHONE!!!';
+        color: white!important;
+        opacity: 1;
+        visibility: show;
+	}
+	50% {
+		content: '!!!WEBSITE INI HANYA UNTUK DESKTOP/PC TIDAK DI REKOMENDASIKAN UNTUK HANDPHONE!!!'
+		color: white!important;
+        opacity: 1;
+        visibility: show;
+	}
+	100% {
+		content: '!!!WEBSITE INI HANYA UNTUK DESKTOP/PC TIDAK DI REKOMENDASIKAN UNTUK HANDPHONE!!!';
+		color: white;
+		opacity: 1;
+        visibility: show;
+	}
+}

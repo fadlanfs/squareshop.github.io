@@ -1,0 +1,14 @@
+body {
+	background-color: grey;
+}
+.tenor-gif-embed {
+	width: 200px;
+	height: 200px;
+}
+#scroll{
+ width: 200px;
+ height: 100px;
+ overflow: scroll;
+ padding: 10px;
+ background: #ccc;
+}
