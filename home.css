@@ -5,12 +5,12 @@ body {
 	background-color: black;
 	background: url(18.png);
 	background-size: cover;
-	top: 70px; 
+	background-position:  
 
 	
 }
 * {
-	margin: 0px;
+	margin: 0px;	
 	padding: 0px;
 }
 
@@ -239,4 +239,13 @@ body {
 }
 .home {
 	backface-visibility: 12px;
+}
+.wok {
+	width: 20px;
+	height: 20px;
+	margin-left: -270px;
+	border: 10px solid black;
+	border-radius: 20px;
+	position: cover;
+
 }

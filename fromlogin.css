@@ -98,6 +98,8 @@ body {
 	color: #fff;	
 	opacity: 0;
 	animation: animate 2s linear infinite;
+	margin-left: 330px;
+	margin-top: 400px;
 }
 @keyframes animate {
 	0%{
@@ -108,8 +110,8 @@ body {
 	}
 	50% {
 		content: '!!!WEBSITE INI HANYA UNTUK DESKTOP/PC TIDAK DI REKOMENDASIKAN UNTUK HANDPHONE!!!'
-		color: white!important;
-        opacity: 1;
+		color: black!important;
+        opacity: 0;
         visibility: show;
 	}
 	100% {
